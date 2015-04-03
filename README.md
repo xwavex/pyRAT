@@ -1,8 +1,8 @@
-# pyRAT - interface for Mad Catz / Cyborg R.A.T. 7
+# pyRAT - interface for Mad Catz R.A.T. 7
 
 ![pyRAT](res/pyRAT.png "pyRAT")
 
-pyRAT is a tool which incorporates all features of the communication with a MadCatz R.A.T.7.
+pyRAT is a tool which incorporates all features of the communication with a Mad Catz (Cyborg) R.A.T.7.
 
 ```
 $ sudo python pyRAT.py -h
