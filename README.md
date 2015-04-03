@@ -1,4 +1,4 @@
-# pyRAT
+# pyRAT - python interface for Mad Catz / Cyborg R.A.T. 7
 
 ![pyRAT](res/pyRAT.png "pyRAT")
 
