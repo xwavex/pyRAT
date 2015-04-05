@@ -1,5 +1,8 @@
-# pyRAT
-pyRAT is a tool which incorporates all features of the communication with a MadCatz R.A.T.7.
+# pyRAT - interface for Mad Catz R.A.T. 7
+
+![pyRAT](res/pyRAT.png "pyRAT")
+
+pyRAT is a tool which incorporates all features of the communication with a Mad Catz (Cyborg) R.A.T.7.
 
 ```
 $ sudo python pyRAT.py -h
@@ -19,3 +22,11 @@ optional arguments:
   --getdpi MODE         Gets the DPI for a desired MODE in X and Y direction.
   --setmode MODE        Sets the active dpi mode. [1-4]
 ```
+
+## R.A.T.7's Protocol
+
+Lorem Ipsum
+
+#### Set and Get active DPI mode
+
+LoremIpsum
