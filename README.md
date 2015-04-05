@@ -22,5 +22,3 @@ optional arguments:
   --getdpi MODE         Gets the DPI for a desired MODE in X and Y direction.
   --setmode MODE        Sets the active dpi mode. [1-4]
 ```
-
-<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMCcgaGVpZ2h0PSczMCc+PGNpcmNsZSBjeD0nMTUnIGN5PScxNScgcj0nMTAnIC8+PC9zdmc+" />
