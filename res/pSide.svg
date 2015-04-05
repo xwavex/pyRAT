@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="pSide.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="600.03388"
-     inkscape:cy="108.11283"
+     inkscape:zoom="2.8"
+     inkscape:cx="160.08994"
+     inkscape:cy="195.60847"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -6623,7 +6623,7 @@ SqVSqVQ/NP1/7OCXLITq98gAAAAASUVORK5CYII=
        y="-543.24133" />
     <path
        style="fill:none;stroke:#ff2a2a;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 267.85715,-542.36997 -27.50001,-27.76785 -268.945163,0"
+       d="m 267.85715,-542.36997 -44.6726,-47.90962 -251.772573,-0.0613"
        id="path3858"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
