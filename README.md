@@ -27,7 +27,7 @@ optional arguments:
 
 Lorem Ipsum
 
-#### Set and Get active DPI mode
+#### Change Active DPI Mode
 
 Modes 1 2 3 4
 ![Visualization of the modes](https://rawgit.com/xwavex/pyRAT/master/res/pSide.svg)
@@ -35,3 +35,42 @@ Modes 1 2 3 4
 |  Mode |    1   |    2   |    3   |    4   |
 |:-----:|:------:|:------:|:------:|:------:|
 | value | 0x1000 | 0x2000 | 0x3000 | 0x4000 |
+
+##### Read active DPI Mode
+
+|     command    | value |information|
+|:--------------:|:-----:|----------------------------|
+|      type      |  0xC0 |                            |
+|     request    |  0x90 |                            |
+|      value     |  0x0  |                            |
+|      index     |  0x74 |                            |
+|      size      |  0x1  |                            |
+| ioBuffer[size] |       |will contain the active mode|
+
+python snippet:
+```javascript
+ioBuffer = dev.ctrl_transfer(0xC0, 0x90, 0, 0x74, 1)
+```
+c++ snippet:
+```javascript
+err = libusb_control_transfer(handle, 0xC0, 0x90, 0x0, 0x74, ioBuffer, 0x1);
+```
+
+##### Write active DPI Mode
+
+|     command    |  value   |         information           |
+|:--------------:|:--------:|-------------------------------|
+|      type      |   0x40   |                               |
+|     request    |   0x91   |                               |
+|      value     |   0x1000 | choose from modes table above |
+|      index     |   0x74   |                               |
+|      size      |   0x0    |                               |
+
+python snippet:
+```javascript
+ioBuffer = dev.ctrl_transfer(0x40, 0x91, 0x1000, 0x74, [])
+```
+c++ snippet:
+```javascript
+err = libusb_control_transfer(handle, 0x40, 0x91, 0x1000, 0x74, 0, 0x1);
+```
