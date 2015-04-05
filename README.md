@@ -29,4 +29,9 @@ Lorem Ipsum
 
 #### Set and Get active DPI mode
 
-LoremIpsum
+Modes 1 2 3 4
+![Visualization of the modes](https://rawgit.com/xwavex/pyRAT/master/res/pSide.svg)
+
+|  Mode |    1   |    2   |    3   |    4   |
+|:-----:|:------:|:------:|:------:|:------:|
+| value | 0x1000 | 0x2000 | 0x3000 | 0x4000 |
