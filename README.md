@@ -22,3 +22,11 @@ optional arguments:
   --getdpi MODE         Gets the DPI for a desired MODE in X and Y direction.
   --setmode MODE        Sets the active dpi mode. [1-4]
 ```
+
+## R.A.T.7's Protocol
+
+Lorem Ipsum
+
+#### Set and Get active DPI mode
+
+LoremIpsum
